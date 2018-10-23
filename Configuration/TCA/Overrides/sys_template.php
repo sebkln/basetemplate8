@@ -1,8 +1,12 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-    'basetemplate8',
-    'Configuration/TypoScript',
-    'Website Templates'
-);
+call_user_func(function () {
+    $extensionKey = 'basetemplate8';
+
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+        $extensionKey,
+        'Configuration/TypoScript',
+        'Website Templates'
+    );
+});
