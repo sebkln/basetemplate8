@@ -2,7 +2,14 @@
 
 # Templating Starter Kit for TYPO3 v8 LTS
 
-## Introduction 
+> **This extension is now archived!**
+> There are newer versions of this extension for [TYPO3 v9](https://github.com/sebkln/basetemplate9)
+> and [TYPO3 v10](https://github.com/sebkln/basetemplate10).
+> Each version uses the new features of their target versions of TYPO3 (e.g. the new condition syntax).
+
+
+
+## Introduction
 
 It is considered good practice to save anything related to your website theme
 in a separate extension (a so-called *Site package*):
@@ -16,7 +23,7 @@ in a separate extension (a so-called *Site package*):
 - overrides of the TYPO3 core, e.g. new database fields
 
 This TYPO3 extension can be a base for your website configuration.
-Add your Stylesheets, JavaScripts and templates, adapt the supplied configurations to your needs. 
+Add your Stylesheets, JavaScripts and templates, adapt the supplied configurations to your needs.
 
 It will not impose any Frontend Framework on you. You're free to use your favourite Framework or custom templates.
 
@@ -122,7 +129,7 @@ should be stored in `Configuration/TypoScript/plugin/plugin.[extensionKey].typos
 ### Syntax highlighting
 With TYPO3 version 8.7.2, the file extensions *.typoscript* and *.tsconfig* have become the new defaults.
 Add these to your editor to benefit from TypoScript syntax highlighting again.
-In PhpStorm, open **Settings/Preferences** and add the patterns `*.typoscript` and `*.tsconfig` to TypoScript in **Editor | Code Style**. 
+In PhpStorm, open **Settings/Preferences** and add the patterns `*.typoscript` and `*.tsconfig` to TypoScript in **Editor | Code Style**.
 
 
 ### Footnotes
